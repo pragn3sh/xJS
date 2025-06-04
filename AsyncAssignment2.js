@@ -1,7 +1,4 @@
-
 // Promisified setTimeout;
-
-
 function promisifiedSetTimeout(time){
   return new Promise((resolve, reject)=>{
    setTimeout(()=>{
